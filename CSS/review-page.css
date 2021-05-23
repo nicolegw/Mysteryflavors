@@ -1,0 +1,125 @@
+.sections{
+	width: 100%;
+	height: auto;	
+}
+
+.section1{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.review-title {
+	font-family: 'Merriweather', serif;
+	font-size: 26px;
+	letter-spacing: 0.5px;
+	color: #000;
+	line-height: 30px;
+}
+
+.author-date{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color:c;
+	line-height: 50px;
+}
+
+.desc{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #000;
+	line-height: 26px;
+	text-align: justify;
+}
+
+.section1 img{
+	padding: 20px 0;
+	width: 100%;
+}
+
+.item {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #666;
+	line-height: 26px;
+	text-align: justify;
+}
+
+.section2{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	padding: 40px 0;
+}
+
+.section2 #googleMap{
+	flex: 1;
+	background-color: green;
+}
+
+.section2 .rating-contact{
+	flex: 1;
+	padding: 0 30px;
+}
+
+.section2 .ratings{
+	padding-bottom: 20px;
+}
+
+.section2 .ratings-contact-title{
+	font-family: 'Merriweather', serif;
+	font-size: 26px;
+	letter-spacing: 0.5px;
+	color: #000;
+	line-height: 30px;
+}
+
+.section2 .category{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #000;
+	line-height: 26px;
+	text-align: justify;
+}
+
+.checked {
+    color: orange;
+}
+
+.first{
+	padding-left: 20px;
+}
+
+.contact table{
+	table-layout: fixed;
+	width: auto;
+}
+
+.contact td{
+	padding-right: 20px;
+}
+
+.top{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.top a{
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 20px;
+	
+}
+
+.top a:hover{
+  transition: 0.5s;
+  background-color: #222;
+  color: white;
+}
+
+

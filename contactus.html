@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Mystery Flavors | Contact Us</title>
+	<meta charset="utf-8">
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+	<link rel="stylesheet" type="text/css" href="./CSS/header + footer.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/contactus.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/reset.css">
+	<link rel="icon" href="./Images/icon.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400i,700i|Open+Sans|Kaushan+Script|Roboto:500i" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+	<header>
+		<div class = "logo">
+			<img src="./Images/logo-white.png" usemap="#home"></div>
+			<map name="home">
+  			<area shape="rect" coords="0,0,126,50" href="index.html" onfocus="blur();">
+	<nav>
+		<div class = "navbar">
+			<ul>
+			  	<li><a href="index.html">Home</a></li>
+			  	<li><a href="about.html">About</a></li>
+				<li><a href="recipes.html">Recipes</a></li>
+				<li><a href="reviews.html">Reviews</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
+	</header>
+
+	<main>
+		<div class = "background-pic"> </div>
+			<div class = "header">
+				<h1>Contact Us</h1>
+				<p>We are happy to help anytime!</p>	
+			</div>
+		
+		<div class = "form" >
+			<form onsubmit="thankyou()">
+				<input type="text" class= "form-control" placeholder="Name" required><br>
+				<input type="email" class= "form-control" placeholder="E-Mail" required><br>
+				<textarea class = "form-control" placeholder="Message" rows="4" required></textarea><br>
+				<input type="submit" class = "form-control submit" value="Submit">
+			</form>	
+		</div>
+		<div class="pop-up">
+			
+		</div>
+
+	</main>
+
+	<footer>
+		<div class = "footer-container">
+			<div class="copyright">
+				<p>Copyright &copy; 2018 | Mystery Flavors</p>
+			</div>
+
+			<div class="social">
+				<ul>
+				  	<li><a href="https://www.facebook.com/MysteryFlavorz/" class="fa fa-facebook"></a></li>
+				  	<li><a href="https://twitter.com/mysteryflavors2" class="fa fa-twitter"></a></li>
+					<li><a href="https://www.instagram.com/mystery.flavorss/" class="fa fa-instagram"></a></li>
+				</ul>
+			</div>	
+		</div>
+	</footer>
+</body>
+
+<script>
+	function thankyou() {
+		window.alert("Thank you for sending us a message!");
+	}
+</script>
+
+</html>

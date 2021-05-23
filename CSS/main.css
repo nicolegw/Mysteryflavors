@@ -21,6 +21,9 @@ body .background-container{
 	width: 100%;
 	height: auto;
 	margin: 0;
+	margin-left: 20px;
+    margin-top: 10px;
+}
 }
 
 .navbar {

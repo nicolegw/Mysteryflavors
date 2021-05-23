@@ -4,7 +4,7 @@ body{
 
 body .background-container{
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 	position: relative;
 	z-index: -1;
 	
@@ -33,7 +33,7 @@ body .background-container{
 }
 
 .navbar ul{
-	padding-left: 630px;
+	padding-left: 500px;
 	list-style-type: none;
 	color: black;
 }

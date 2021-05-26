@@ -10,6 +10,12 @@ body .background-container{
 	
 }
 
+
+body .background-container img {
+    width: 100%;
+}
+
+
 .logo{
 	width: 10%;
 	height:80px;
